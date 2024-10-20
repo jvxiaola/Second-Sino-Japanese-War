@@ -1,0 +1,36 @@
+ROD_neutrality= {
+    allowed = {
+        original_tag = ROD
+    }
+    enable = {
+        date > 1931.1.1
+        date < 1936.12.12
+    }
+    enable_reverse = {
+    }
+    reversed = yes
+    abort_when_not_enabled = yes
+    ai_strategy = {
+         type = garrison
+         value = 50
+    }
+    ai_strategy = {
+        type = put_unit_buffers
+        ratio = 0.9
+        states = {
+            128
+            98
+            74
+            90
+            21
+            74
+            82
+        }
+        subtract_fronts_from_need = yes
+    }
+ai_strategy = {
+    type = garrison_reinforcement_priority
+    value = 30
+}
+
+}

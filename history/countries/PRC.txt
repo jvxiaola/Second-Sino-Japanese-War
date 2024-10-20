@@ -1,0 +1,58 @@
+﻿capital = 582 
+set_oob = PRC_1931
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1		
+	tech_engineers = 1
+}
+
+set_power_balance = {
+    id = PRC_struggle_balance
+}
+recruit_character = PRC_SuQu
+recruit_character = PRC_XuXianQian
+recruit_character = PRC_MaoZeDong
+recruit_character = PRC_ZhuDe
+recruit_character = PRC_ZhouEngLai
+recruit_character = PRC_BoGu
+recruit_character = PRC_LiDe
+recruit_character = PRC_PengDeHuai
+recruit_character = PRC_LingBiao
+recruit_character = PRC_HeLong
+recruit_character =PRC_LuoBinHui
+recruit_character =PRC_ZhouKun
+recruit_character =PRC_XunHuaiZhou
+recruit_character =PRC_DongZhenTang
+set_popularities = {
+	democratic = 0
+	communism = 100
+}
+set_politics = {
+	ruling_party = communism
+	#last_election = "1936.11.11"
+	election_frequency = 72
+	elections_allowed = no
+}
+add_ideas={
+	Soviet_district_spirit
+	AB_spirit
+	Leftism
+	Revolutionary_base
+}
+
+1933.1.1={
+	capital = 582 
+	set_oob = PRC_1933
+	add_ideas={
+		Soviet_district_spirit
+		Leftism
+		Revolutionary_base
+		PRC_ZhouEngLai_P
+		PRC_BoGu_P
+		PRC_LiDe_P
+		PRC_LiDe_H
+		PRC_BoGu_H
+		PRC_ZhuDe_H 
+	}
+	set_cosmetic_tag = PRC_1931
+}

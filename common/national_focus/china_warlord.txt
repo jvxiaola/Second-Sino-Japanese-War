@@ -1,0 +1,29 @@
+﻿focus_tree = {
+	id = china_warlord_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			OR = {
+				tag = ROD
+				tag = ROJ
+				tag = ROC
+				tag = ROG
+				tag = ROA
+tag = SYS
+tag = ROS
+tag = ROY
+tag = ROX
+tag = ROH
+tag = ROQ
+tag = XZS
+			}
+		}
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 50 y = 1350 }
+}

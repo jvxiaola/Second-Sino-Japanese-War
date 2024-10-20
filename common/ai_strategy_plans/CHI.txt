@@ -1,0 +1,64 @@
+CHI_1931= {
+    allowed = {
+        original_tag = CHI
+    }
+    enable = {
+        date > 1931.1.1
+        date < 1936.12.12
+
+    }
+    enable_reverse = {
+    }
+    reversed = yes
+    abort_when_not_enabled = yes
+    ai_strategy = {
+         type = garrison
+         value = 20
+     }
+ai_strategy = {
+    type = prepare_for_war
+    id = PRC
+    value = 100000000
+}
+    ai_strategy = {
+        type = garrison_reinforcement_priority
+        value = 20
+    }
+    ai_strategy = {
+        type = put_unit_buffers
+        ratio = 0
+        states = {
+            606
+            608
+            607
+            611
+        }
+        subtract_fronts_from_need = yes
+    }
+    ai_strategy = {
+        type = put_unit_buffers
+        ratio = 0.5
+        states = {
+            312
+            302
+            305
+            315
+            282
+            135
+            237
+            281
+            327
+            292
+            293
+        }
+        subtract_fronts_from_need = yes
+    }
+    ai_strategy = {
+        type = spare_unit_factor
+        value = 35
+    }
+    ai_strategy = {
+        type = garrison
+        value = 10
+    }
+}

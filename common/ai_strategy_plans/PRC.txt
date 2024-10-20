@@ -1,0 +1,29 @@
+PRC= {
+    allowed = {
+        original_tag = PRC
+    }
+    enable = {
+    }
+    enable_reverse = {
+    }
+    reversed = yes
+    abort_when_not_enabled = yes
+
+    ai_strategy = {
+        type = front_control
+        state_trigger = {
+            state = 606
+            has_state_flag = Key_areas
+            is_owned_by = CHI
+        }
+        ratio = 1
+        ordertype = front
+        execution_type = rush
+        manual_attack = yes
+    }
+    ai_strategy = {
+        type = theatre_distribution_demand_increase
+        value = 30
+        id = 582
+    }
+}

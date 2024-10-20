@@ -1,0 +1,18 @@
+state={
+	id=264
+	name="STATE_264"
+	provinces={
+		1955 2669 3301 
+	}
+	history={
+		owner = PRC
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = CHI
+		add_core_of = PRC
+	}
+	manpower=1623000
+	state_category = town
+	local_supplies = 0.0
+}

@@ -1,0 +1,19 @@
+state={
+	id=234
+	name="STATE_234"
+	provinces={
+		379 3297 
+	}
+	history={
+		owner = ROS
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		add_core_of = ROS
+		add_core_of = CHI
+	}
+	manpower=323000
+	state_category = town
+	local_supplies = 0.0
+}

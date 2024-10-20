@@ -1,0 +1,27 @@
+ideas = {
+	country = {
+		Militaristic_fervor = {
+		
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				
+				army_speed_factor=0.15
+				breakthrough_factor=0.25			
+				ai_focus_military_equipment_factor= 0.5
+				ai_focus_aggressive_factor = 1
+				ai_focus_naval_factor = 0.5
+				ai_focus_naval_air_factor= 0.5
+				ai_focus_military_equipment_factor = 0.5
+			}
+			
+		}
+	}
+}

@@ -1,0 +1,27 @@
+ROD_1 = {
+	allowed = { original_tag = ROD }
+	enable = {
+		always = yes
+	}
+	
+	ai_strategy = {
+    type = prepare_for_war
+    id = CHI
+    value = 100
+}
+ai_strategy = {
+    type = prepare_for_war
+    id = ROJ
+    value = 100
+}
+ai_strategy = {
+    type = prepare_for_war
+    id = ROA
+    value = 100
+}
+ai_strategy = {
+    type = dont_defend_ally_borders
+    id = JAP
+    value = 100
+}
+}

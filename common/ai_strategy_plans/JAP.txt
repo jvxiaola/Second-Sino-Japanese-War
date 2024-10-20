@@ -1,0 +1,24 @@
+JAP_neutrality= {
+    allowed = {
+        original_tag = JAP
+    }
+    enable = {
+    }
+    enable_reverse = {
+    }
+    reversed = yes
+    abort_when_not_enabled = yes
+
+    ai_strategy = {
+        type = front_control
+        state_trigger = {
+            has_state_flag = Key_areas
+            is_owned_by = ROD
+        }
+        ratio = 0.9
+        ordertype = front
+        execution_type = rush
+        manual_attack = yes
+    }
+
+}

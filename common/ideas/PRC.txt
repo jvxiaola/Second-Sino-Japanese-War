@@ -1,0 +1,104 @@
+ideas = {
+
+	country = {
+		Chinese_red_army1 = {
+			allowed = {
+			}
+			picture = Chinese_red_army
+			
+			modifier = {
+				ai_focus_aggressive_factor = 1
+				army_attack_factor=0.05	
+                army_defence_factor=0.05
+				army_speed_factor=0.1
+				army_org_factor=0.25
+				breakthrough_factor=0.05
+				river_crossing_factor=-0.05			
+                terrain_penalty_reduction=0.05	
+                pocket_penalty=-0.1				
+                fortification_damage=0.05
+				land_night_attack=0.05
+				
+			}
+		}
+		Chinese_red_army2 = {
+			allowed = {
+			}
+			picture = Chinese_red_army
+			
+			modifier = {
+				ai_focus_aggressive_factor = 1
+				army_attack_factor=0.1	
+                army_defence_factor=0.1
+				army_speed_factor=0.6
+				army_org_factor=0.25
+				breakthrough_factor=0.3
+				river_crossing_factor=-0.3			
+                terrain_penalty_reduction=0.3	
+                pocket_penalty=-0.1				
+                fortification_damage=0.2
+				land_night_attack=0.2
+				
+			}
+		}
+		Soviet_district_spirit = {
+			allowed = {
+			}
+			picture = Soviet_district_spirit
+			
+			modifier = {
+				research_speed_factor=-0.6
+				recruitable_population_factor=0.1
+				global_building_slots_factor=-0.05
+				production_speed_buildings_factor=-0.1
+				repair_speed_infrastructure_factor=-0.1
+				production_lack_of_resource_penalty_factor=0.1
+				
+			}
+			
+		}
+		Leftism = {
+			allowed = {
+			}
+			picture = Leftism
+			
+			modifier = {
+				political_power_cost=0.05
+				ai_get_ally_desire_factor=10
+				opinion_gain_monthly_same_ideology=5
+				war_support_factor=0.05
+				party_popularity_stability_factor=-0.05
+				org_loss_when_moving=0.02
+				attrition_for_controller=0.05
+			}
+		}
+		AB_spirit = {
+			allowed = {
+			}
+			picture = AB_spirit
+			
+			modifier = {
+				political_power_cost=0.05
+				encryption_factor=-0.1
+				stability_weekly_factor=-0.02
+				ntelligence_agency_defense=-0.05
+			}
+		}
+		Revolutionary_base = {
+			allowed = {
+			}
+			picture = Revolutionary_base
+			
+			modifier = {
+				surrender_limit=10
+				war_stability_factor=0.25
+				defensive_war_stability_factor=0.15
+				war_support_factor=0.25
+				compliance_growth=0.15
+				compliance_growth_on_our_occupied_states=-0.15
+				supply_consumption_factor=-0.15
+				out_of_supply_factor=-0.1
+			}
+		}
+	}
+}

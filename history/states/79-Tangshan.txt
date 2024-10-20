@@ -1,0 +1,22 @@
+state={
+	id=79
+	name="STATE_79"
+	provinces={
+		194 1794 3111 3629 
+	}
+	history={
+		owner = ROD
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		add_core_of = ROD
+		add_core_of = CHI
+		victory_points = {
+			3629 5
+		}
+	}
+	manpower=323000
+	state_category = town
+	local_supplies = 0.0
+}
