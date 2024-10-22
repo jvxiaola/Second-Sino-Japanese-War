@@ -357,6 +357,91 @@ mean_time_to_happen = {
 			name = Hidden_News.13.a
 		}		
 }
+
+
+
+country_event = {
+	id = Hidden_News.14
+	hidden = yes
+	fire_only_once = yes
+    trigger = {
+		AND={
+			date > 1936.12.11
+			date < 1936.12.13
+		}
+    }
+    immediate = {
+		set_global_flag = XiAn
+    } 
+    mean_time_to_happen = {
+	    days = 2
+    }
+	option = {
+		name = Hidden_News.14.a
+		hidden_effect = {
+			news_event = WorldNew.18
+		}
+		clr_global_flag = XiAn
+	}		
+}
+country_event = {
+	id = Hidden_News.15
+	hidden = yes
+	fire_only_once = yes
+    trigger = {
+		AND={
+			date > 1937.7.6
+			date < 1937.7.8
+		}
+    }
+    immediate = {
+		set_global_flag = 77
+    } 
+    mean_time_to_happen = {
+	    days = 2
+    }
+	option = {
+		name = Hidden_News.15.a
+		hidden_effect = {
+			news_event = WorldNew.19
+		}
+		clr_global_flag = 77
+	}		
+}
+country_event = {
+	id = Hidden_News.16
+	hidden = yes
+	fire_only_once = yes
+    trigger = {
+		AND={
+			date > 1936.8.12
+			date < 1936.8.14
+		}
+    }
+    immediate = {
+		set_global_flag = 128songhu
+    } 
+    mean_time_to_happen = {
+	    days = 2
+    }
+	option = {
+		name = Hidden_News.14.a
+		hidden_effect = {
+			news_event = WorldNew.20
+		}
+		clr_global_flag = 128songhu
+	}		
+}
+
+
+
+
+
+
+
+
+
+
 #######
 
 
