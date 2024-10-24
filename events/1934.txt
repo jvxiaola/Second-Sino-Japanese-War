@@ -1,27 +1,6 @@
 ﻿add_namespace = PRC_1934Hidden
 add_namespace = PRC_1934
-country_event = {
-	id = PRC_1934Hidden.0
-    hidden = yes
 
-	fire_only_once = yes
-	
-    trigger = {
-		CHI={
-			has_war_with =PRC
-			controls_state = 589
-		}
-    }
-	immediate = {
-		country_event = PRC_1934.3
-	}
-	mean_time_to_happen = {
-		days = 2
-	}
-	option = {
-			name = PRC_1934Hidden.0.a
-	}		
-}
 country_event = {
 	id = PRC_1934Hidden.1
     hidden = yes
