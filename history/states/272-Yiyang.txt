@@ -5,7 +5,7 @@ state={
 		629 3069 3878 3921 
 	}
 	history={
-		owner = CHI
+		owner = RON
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1

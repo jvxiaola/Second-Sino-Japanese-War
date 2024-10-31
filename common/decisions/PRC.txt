@@ -1,6 +1,7 @@
 Long_march_decisions = {
 	Long_March_mobilization_meeting = {
 		available = {
+			has_war = yes
 		}
 		visible = {
 		}
@@ -14,6 +15,9 @@ Long_march_decisions = {
 				remove_idea = Chinese_red_army1
 				add_idea = Chinese_red_army2
 			}
+			hidden_effect = {
+				country_event = PRC_1934.5
+			}
 		}
 		remove_effect = {
 		}
@@ -22,6 +26,7 @@ Long_march_decisions = {
 		available = {
 		}
 		visible = {
+			has_idea = Chinese_red_army2
 		}
 		cost = 25
 		days_remove= 55

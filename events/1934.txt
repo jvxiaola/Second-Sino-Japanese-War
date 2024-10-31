@@ -115,7 +115,34 @@ country_event = {
 	}		
 }
 
-
+country_event = {
+	id = PRC_1934Hidden.5
+	hidden = yes
+	fire_only_once = yes
+    trigger = {
+		PRC = {
+			AND={
+				has_war = yes
+				controls_province = 3938
+			}
+		}
+    }
+    immediate = {
+		set_global_flag = fall_of_ZunYi
+    } 
+    mean_time_to_happen = {
+	    days = 2
+    }
+	option = {
+		name = PRC_1934Hidden.5.a
+		hidden_effect = {
+			PRC={
+				country_event = PRC_1934.4
+			}
+		}
+		clr_global_flag = fall_of_ZunYi
+	}		
+}
 
 
 
@@ -167,12 +194,57 @@ country_event = {
 	is_triggered_only = yes
    
 	option = {
-		name = PRC_1934.1.3.a
+		name = PRC_1934.3.a
 		add_stability = -0.2
 	}
 }
+country_event = {
+	id = PRC_1934.4
+	title =PRC_1934.4.t
+	desc = PRC_1934.4.d
+    #picture = 
+	fire_only_once = yes
+	is_triggered_only = yes
+   
+	option = {
+		name = PRC_1934.4.a
+		PRC_MaoZeDong={
+			retire = yes
+		}
+		create_field_marshal = {
+			name = PRC_MaoZeDong
+			traits={trickster fast_planner inspirational_leader thorough_planner }
+			portrait_path="gfx/leaders/PRC/PRC_MaoZeDong.png"
+			skill = 5
+			attack_skill = 5
+			defense_skill = 5
+			planning_skill = 5
+			logistics_skill = 5
+		}
 
+	}
+}
 
+country_event = {
+	id = PRC_1934.5
+	title =PRC_1934.5.t
+	desc = PRC_1934.5.d
+    #picture = 
+	fire_only_once = yes
+	is_triggered_only = yes
+   
+	option = {
+		name = PRC_1934.5.a
+		ROG={
+			white_peace = PRC
+			give_military_access = PRC
+		}
+		PRC={
+			white_peace = ROG
+			give_military_access = ROG
+		}
+	}
+}
 
 
 

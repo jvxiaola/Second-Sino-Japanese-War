@@ -5,7 +5,7 @@ state={
 		808 960 1657 2728 3904 3924 
 	}
 	history={
-		owner = CHI
+		owner = RON
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1
@@ -14,7 +14,7 @@ state={
 		victory_points = {
 			1657 30
 		}
-		add_core_of = CHI
+		add_core_of = RON
 	}
 	manpower=323000
 	state_category = town

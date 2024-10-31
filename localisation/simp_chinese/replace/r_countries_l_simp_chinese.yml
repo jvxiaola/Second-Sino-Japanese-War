@@ -1,5 +1,5 @@
 ﻿l_simp_chinese:
-
+ROC_COUNTRY: "中华民国"
 CHI_fascism: "改组派中华民国"
  CHI_fascism_DEF: "改组派中华民国"
  CHI_democratic: "南京国民政府"
@@ -133,6 +133,10 @@ CHI_fascism: "改组派中华民国"
  ROC: "桂系军阀"
  ROC_DEF: "桂系军阀"
  ROC_ADJ: "桂系军阀"
+
+ RON: "湖南军阀"
+ RON_DEF: "湖南军阀"
+ RON_ADJ: "湖南军阀"
 
  ROY_fascism: "滇系军阀"
  ROY_fascism_DEF: "滇系军阀"

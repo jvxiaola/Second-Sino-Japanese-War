@@ -5,13 +5,13 @@ state={
 		3382 4029 3073 
 	}
 	history={
-		owner = CHI
+		owner = RON
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1
 
 		}
-		add_core_of = CHI
+		add_core_of = RON
 victory_points = {
 	4029 5
 }
