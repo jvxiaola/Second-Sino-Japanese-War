@@ -12,7 +12,12 @@ state={
 		}
 		add_core_of = ROG
 		add_core_of = CHI
-
+		victory_points = {
+			4055 5
+		}
+		victory_points = {
+			4040 3
+		}
 	}
 
 	provinces={

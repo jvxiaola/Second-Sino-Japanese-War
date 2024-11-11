@@ -187,6 +187,94 @@ characters={
 			}
 		}
 	}
+
+	PRC_WangJiaXiang={
+		name=PRC_WangJiaXiang
+		portraits={
+			civilian={
+				small = "gfx/interface/advisers/PRC_WangJiaXiang.png"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = PRC_WangJiaXiang_P
+			allowed  = {
+				original_tag  = PRC
+			}
+			available  = {
+				
+			}
+			traits  = {
+				strong_party_discipline
+			}
+			ai_will_do  = {
+				factor  = 0.000
+			}
+		}
+	}
+
+	PRC_GuZuoLing={
+		name=PRC_GuZuoLing
+		portraits={
+			civilian={
+				small = "gfx/interface/advisers/PRC_GuZuoLing.png"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = PRC_GuZuoLing_P
+			allowed  = {
+				original_tag  = PRC
+			}
+			available  = {
+				
+			}
+			traits  = {
+				strong_party_discipline
+			}
+			ai_will_do  = {
+				factor  = 0.000
+			}
+		}
+	}
+
+	PRC_RenBiShi={
+		name=PRC_RenBiShi
+		portraits={
+			civilian={
+				small = "gfx/interface/advisers/PRC_RenBiShi.png"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = PRC_RenBiShi_P
+			allowed  = {
+				original_tag  = PRC
+			}
+			available  = {
+				
+			}
+			traits  = {
+				strong_party_discipline
+			}
+			ai_will_do  = {
+				factor  = 0.000
+			}
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
 	PRC_PengDeHuai={
 		name=PRC_PengDeHuai
 		portraits={

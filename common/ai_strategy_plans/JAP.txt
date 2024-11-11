@@ -12,7 +12,6 @@ JAP_neutrality= {
     ai_strategy = {
         type = front_control
         state_trigger = {
-            has_state_flag = Key_areas
             is_owned_by = ROD
         }
         ratio = 0.9
@@ -20,5 +19,14 @@ JAP_neutrality= {
         execution_type = rush
         manual_attack = yes
     }
-
+    ai_strategy = {
+        type = prepare_for_war
+        id = ROD
+        value = 100
+    }
+    ai_strategy = {
+        type = force_defend_ally_borders
+        id = ROD
+        value = 100
+    }
 }

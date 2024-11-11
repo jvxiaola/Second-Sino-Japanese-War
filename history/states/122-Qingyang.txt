@@ -4,18 +4,18 @@ state={
 	name="STATE_122"
 
 	history={
-		owner = CHI
+		owner = ROZ
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1
 
 		}
-		add_core_of = CHI
+		add_core_of = ROZ
 
 	}
 
 	provinces={
-		1934 2975 
+		1934 
 	}
 	manpower=323000
 	buildings_max_level_factor=1.000

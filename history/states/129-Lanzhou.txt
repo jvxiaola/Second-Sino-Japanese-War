@@ -10,6 +10,9 @@ state={
 			infrastructure = 1
 			industrial_complex = 1
 		}
+		1936.1.1={
+			owner = ROD
+		}
 		add_core_of = CHI
 	}
 	manpower=323000

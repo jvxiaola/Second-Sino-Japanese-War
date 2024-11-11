@@ -704,6 +704,7 @@ news_event = {
 	immediate = {
 		hidden_effect = {
 			CAR={
+				white_peace = JAP
 				declare_war_on = {
 					target = ROD
 					type = annex_everything

@@ -12,6 +12,9 @@ state={
 		victory_points = {
 			4080 10
 		}
+		1936.1.1={
+			owner = ROC
+		}
 	}
 	
 	manpower=230000

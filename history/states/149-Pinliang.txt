@@ -11,7 +11,9 @@ state={
 
 		}
 		add_core_of = CHI
-
+		1936.1.1={
+			owner = ROD
+		}
 	}
 
 	provinces={

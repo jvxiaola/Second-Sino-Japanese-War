@@ -11,13 +11,11 @@ Long_march_decisions = {
 			factor = 1
 		}
 		complete_effect = {
-			swap_ideas = {
-				remove_idea = Chinese_red_army1
-				add_idea = Chinese_red_army2
-			}
+			add_ideas = Chinese_red_army1
 			hidden_effect = {
-				country_event = PRC_1934.5
+				country_event = {id=PRC_1934.5 days=5}
 			}
+			set_country_flag = Long_march_mission
 		}
 		remove_effect = {
 		}
@@ -26,7 +24,7 @@ Long_march_decisions = {
 		available = {
 		}
 		visible = {
-			has_idea = Chinese_red_army2
+			has_idea = Chinese_red_army1
 		}
 		cost = 25
 		days_remove= 55
@@ -35,8 +33,8 @@ Long_march_decisions = {
 		}
 		complete_effect = {
 			swap_ideas = {
-				remove_idea = Chinese_red_army2
-				add_idea = Chinese_red_army3
+				remove_idea = Chinese_red_army1
+				add_idea = Chinese_red_army2
 			}
 		}
 		remove_effect = {
@@ -48,15 +46,17 @@ Long_march_decisions = {
 			PRC = {
 				AND={
 					has_war = yes
-					controls_province = 4013
+					controls_province = 2268
 				}
 			}
+			
 		}
-		days_mission_timeout = 50
+		days_mission_timeout = 25
 		activation = {
-		
+			has_country_flag = Long_march_mission
 		}
 		visible = {
+			
 		}		
 		fixed_random_seed = no
 		fire_only_once = yes
@@ -64,6 +64,7 @@ Long_march_decisions = {
 		timeout_effect = {
 			add_manpower = -50000
 			add_war_support = -0.05
+			set_country_flag = Long_march_mission0
 		}
 		complete_effect = {
 			add_manpower = 1000
@@ -73,6 +74,7 @@ Long_march_decisions = {
 				amount = 1000
 				producer = PRC
 			}
+			set_country_flag = Long_march_mission0
 		}
 	}
 	Long_march_mission1 = {
@@ -81,15 +83,16 @@ Long_march_decisions = {
 			PRC = {
 				AND={
 					has_war = yes
-					controls_province = 4013
+					controls_province = 2970
 				}
 			}
 		}
-		days_mission_timeout = 50
+		days_mission_timeout = 25
 		activation = {
-		
+			has_country_flag = Long_march_mission0
 		}
 		visible = {
+			
 		}		
 		fixed_random_seed = no
 		fire_only_once = yes
@@ -97,6 +100,7 @@ Long_march_decisions = {
 		timeout_effect = {
 			add_manpower = -50000
 			add_war_support = -0.05
+			set_country_flag = Long_march_mission1
 		}
 		complete_effect = {
 			add_manpower = 1000
@@ -106,6 +110,7 @@ Long_march_decisions = {
 				amount = 1000
 				producer = PRC
 			}
+			set_country_flag = Long_march_mission1
 		}
 	}
 	Long_march_mission2 = {
@@ -114,13 +119,13 @@ Long_march_decisions = {
 			PRC = {
 				AND={
 					has_war = yes
-					controls_province = 4013
+					controls_province = 4020
 				}
 			}
 		}
 		days_mission_timeout = 50
 		activation = {
-		
+			has_country_flag = Long_march_mission1
 		}
 		visible = {
 		}		
@@ -130,6 +135,7 @@ Long_march_decisions = {
 		timeout_effect = {
 			add_manpower = -50000
 			add_war_support = -0.05
+			set_country_flag = Long_march_mission2
 		}
 		complete_effect = {
 			add_manpower = 1000
@@ -139,6 +145,7 @@ Long_march_decisions = {
 				amount = 1000
 				producer = PRC
 			}
+			set_country_flag = Long_march_mission2
 		}
 	}
 	Long_march_mission3 = {
@@ -147,13 +154,13 @@ Long_march_decisions = {
 			PRC = {
 				AND={
 					has_war = yes
-					controls_province = 4013
+					controls_province = 4029
 				}
 			}
 		}
 		days_mission_timeout = 50
 		activation = {
-		
+			has_country_flag = Long_march_mission2
 		}
 		visible = {
 		}		
@@ -163,6 +170,7 @@ Long_march_decisions = {
 		timeout_effect = {
 			add_manpower = -50000
 			add_war_support = -0.05
+			set_country_flag = Long_march_mission3
 		}
 		complete_effect = {
 			add_manpower = 1000
@@ -172,6 +180,7 @@ Long_march_decisions = {
 				amount = 1000
 				producer = PRC
 			}
+			set_country_flag = Long_march_mission3
 		}
 	}
 	Long_march_mission4 = {
@@ -186,7 +195,7 @@ Long_march_decisions = {
 		}
 		days_mission_timeout = 50
 		activation = {
-		
+			has_country_flag = Long_march_mission3
 		}
 		visible = {
 		}		
@@ -196,6 +205,7 @@ Long_march_decisions = {
 		timeout_effect = {
 			add_manpower = -50000
 			add_war_support = -0.05
+			set_country_flag = Long_march_mission3
 		}
 		complete_effect = {
 			add_manpower = 1000
@@ -205,6 +215,7 @@ Long_march_decisions = {
 				amount = 1000
 				producer = PRC
 			}
+			set_country_flag = Long_march_mission3
 		}
 	}
 	Long_march_mission5 = {
@@ -213,13 +224,13 @@ Long_march_decisions = {
 			PRC = {
 				AND={
 					has_war = yes
-					controls_province = 4013
+					controls_province = 900
 				}
 			}
 		}
 		days_mission_timeout = 50
 		activation = {
-		
+			has_country_flag = Long_march_mission4
 		}
 		visible = {
 		}		
@@ -229,6 +240,7 @@ Long_march_decisions = {
 		timeout_effect = {
 			add_manpower = -50000
 			add_war_support = -0.05
+			set_country_flag = Long_march_mission5
 		}
 		complete_effect = {
 			add_manpower = 1000
@@ -238,6 +250,7 @@ Long_march_decisions = {
 				amount = 1000
 				producer = PRC
 			}
+			set_country_flag = Long_march_mission5
 		}
 	}
 	Long_march_mission6 = {
@@ -246,13 +259,13 @@ Long_march_decisions = {
 			PRC = {
 				AND={
 					has_war = yes
-					controls_province = 4013
+					controls_province = 3857
 				}
 			}
 		}
 		days_mission_timeout = 50
 		activation = {
-		
+			has_country_flag = Long_march_mission5
 		}
 		visible = {
 		}		
@@ -262,6 +275,7 @@ Long_march_decisions = {
 		timeout_effect = {
 			add_manpower = -50000
 			add_war_support = -0.05
+			set_country_flag = Long_march_mission6
 		}
 		complete_effect = {
 			add_manpower = 1000
@@ -271,6 +285,7 @@ Long_march_decisions = {
 				amount = 1000
 				producer = PRC
 			}
+			set_country_flag = Long_march_mission6
 		}
 	}
 	Long_march_mission7 = {
@@ -279,13 +294,13 @@ Long_march_decisions = {
 			PRC = {
 				AND={
 					has_war = yes
-					controls_province = 4013
+					controls_province = 1606
 				}
 			}
 		}
 		days_mission_timeout = 50
 		activation = {
-		
+			has_country_flag = Long_march_mission6
 		}
 		visible = {
 		}		
@@ -295,6 +310,7 @@ Long_march_decisions = {
 		timeout_effect = {
 			add_manpower = -50000
 			add_war_support = -0.05
+			set_country_flag = Long_march_mission7
 		}
 		complete_effect = {
 			add_manpower = 1000
@@ -304,6 +320,7 @@ Long_march_decisions = {
 				amount = 1000
 				producer = PRC
 			}
+			set_country_flag = Long_march_mission7
 		}
 	}
 	Long_march_mission8 = {
@@ -312,13 +329,13 @@ Long_march_decisions = {
 			PRC = {
 				AND={
 					has_war = yes
-					controls_province = 4013
+					controls_province = 2541
 				}
 			}
 		}
 		days_mission_timeout = 50
 		activation = {
-		
+			has_country_flag = Long_march_mission7
 		}
 		visible = {
 		}		
@@ -354,7 +371,7 @@ PRC_struggle_balance_category = {
 		complete_effect = {
 			add_power_balance_value = {
 				id = PRC_struggle_balance
-				value = -0.1
+				value = 0.1
 			}
 		}
 		remove_effect = {
@@ -375,7 +392,7 @@ PRC_struggle_balance_category = {
 		complete_effect = {
 			add_power_balance_value = {
 				id = PRC_struggle_balance
-				value = 0.1
+				value = -0.1
 			}
 		}
 		remove_effect = {
@@ -404,11 +421,11 @@ PRC_struggle_balance_category = {
 	}
 	PRC_Obey_Kuomintang= {
 		available = {
-			has_completed_focus = PRC_marxist_orthodoxy
+			
 		}
 
 		visible = {
-			
+			date > 1936.1.1
 		}
 
 		cost = 25

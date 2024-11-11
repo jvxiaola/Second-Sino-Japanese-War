@@ -31,3 +31,6 @@ set_politics = {
 	set_oob = "ROD_1933"
 	add_ideas = Not_resisting
 }
+1936.1.1={
+	set_cosmetic_tag = ROD_1936
+}

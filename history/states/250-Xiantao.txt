@@ -11,6 +11,9 @@ state={
 		}
 		add_core_of = PRC
 		add_core_of = CHI
+		1936.1.1={
+			owner = CHI
+		}
 	}
 	manpower=323000
 	state_category = town

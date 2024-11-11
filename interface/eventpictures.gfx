@@ -12,6 +12,11 @@ spriteTypes = {
 		texturefile = "gfx/event/China_flood.dds"
 	}
 	spriteType = {
+		name = "GFX_PRC_1931_1"
+		texturefile = "gfx/event/GFX_PRC_1931_1.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_Puppet_Manchukuo"
 		texturefile = "gfx/event/Puppet_Manchukuo.dds"
 	}

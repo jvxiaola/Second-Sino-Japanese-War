@@ -12,10 +12,10 @@ set_technology = {
 recruit_character = RFC_LiJiSheng
 set_popularities = {
 	democratic = 0
-	communism = 100
+	neutrality = 100
 }
 set_politics = {
-	ruling_party = communism
+	ruling_party = neutrality
 	#last_election = "1936.11.11"
 	election_frequency = 72
 	elections_allowed = no

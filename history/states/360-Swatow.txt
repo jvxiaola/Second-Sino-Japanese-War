@@ -10,7 +10,9 @@ state={
 			infrastructure = 1
 			industrial_complex = 1
 		}
-		
+		victory_points = {
+			2251 5
+		}
 		add_core_of = ROG
 		add_core_of = CHI
 	}

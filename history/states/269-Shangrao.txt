@@ -15,6 +15,18 @@ state={
 				bunker=6
 			}
 		}
+		victory_points = {
+			3908 10
+		}
+		victory_points = {
+			2186 5
+		}
+		victory_points = {
+			3886 5
+		}
+		victory_points = {
+			3884 5
+		}
 		add_core_of = CHI
 
 	}
@@ -22,7 +34,7 @@ state={
 	provinces={
 		831 1444 2186 2661 2843 2865 2932 2998 3139 3380 3884 3886 3894 3908 
 	}
-	manpower=323000
+	manpower=1323000
 	buildings_max_level_factor=1.000
 	state_category=town
 	local_supplies=10.000

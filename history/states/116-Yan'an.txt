@@ -4,6 +4,11 @@ state={
 	provinces={
 		680 1256 1724 1829 1896 1976 2078 2173 2410 2416 
 	}
+	resources={
+		steel=3.000
+		tungsten=3.000
+	}
+
 	history={
 		owner = CHI
 		buildings = {
@@ -17,8 +22,12 @@ state={
 			680 15
 		}
 		add_core_of = CHI
+		1936.1.1={
+			owner = PRC
+			add_core_of = PRC
+		}
 	}
-	manpower=323000
+	manpower=623000
 	state_category = town
 	local_supplies = 0.0
 }

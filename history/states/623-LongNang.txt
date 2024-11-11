@@ -12,7 +12,12 @@ state={
 
 		}
 		add_core_of = CHI
-
+		victory_points = {
+			2541 10
+		}
+		1936.1.1={
+			owner = ROD
+		}
 	}
 	manpower=23110
 	buildings_max_level_factor=1.000

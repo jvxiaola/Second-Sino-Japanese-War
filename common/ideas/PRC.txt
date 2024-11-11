@@ -37,7 +37,7 @@ ideas = {
                 terrain_penalty_reduction=0.3	
                 pocket_penalty=-0.1				
                 fortification_damage=0.2
-				land_night_attack=0.2
+				land_night_attack=0.5
 				
 			}
 		}
@@ -103,6 +103,18 @@ ideas = {
 				ntelligence_agency_defense=-0.05
 			}
 		}
+		AB_spirit1 = {
+			allowed = {
+			}
+			picture = AB_spirit
+			
+			modifier = {
+				political_power_cost=0.1
+				encryption_factor=-0.05
+				stability_weekly_factor=-0.01
+				ntelligence_agency_defense=-0.1
+			}
+		}
 		Revolutionary_base = {
 			allowed = {
 			}
@@ -111,12 +123,32 @@ ideas = {
 			modifier = {
 				surrender_limit=10
 				war_stability_factor=0.25
-				defensive_war_stability_factor=0.15
 				war_support_factor=0.25
 				compliance_growth=0.15
 				compliance_growth_on_our_occupied_states=-0.15
 				supply_consumption_factor=-0.15
 				out_of_supply_factor=-0.1
+			}
+		}
+
+		Local_outpost= {
+			allowed = {
+			}
+			picture = FRA_national_mobilization_focus
+			
+			modifier = {
+				max_dig_in=10
+				recon_factor_while_entrenched=0.1
+				defensive_war_stability_factor=0.1
+			}
+		}
+		Extensive_conscription= {
+			allowed = {
+			}
+			picture = idea_eng_imperial_conscription
+			
+			modifier = {
+				conscription_factor = 0.1
 			}
 		}
 	}

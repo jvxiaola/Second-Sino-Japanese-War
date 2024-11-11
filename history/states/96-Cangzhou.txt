@@ -10,6 +10,9 @@ state={
 			infrastructure = 1
 			industrial_complex = 1
 		}
+		1936.1.1={
+			owner = JDW
+		}
 		add_core_of = ROD
 		add_core_of = CHI
 	}

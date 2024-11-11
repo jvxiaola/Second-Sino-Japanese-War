@@ -12,7 +12,9 @@ state={
 		}
 		add_core_of = ROS
 		add_core_of = CHI
-
+		victory_points = {
+			3857 10
+		}
 	}
 
 	provinces={

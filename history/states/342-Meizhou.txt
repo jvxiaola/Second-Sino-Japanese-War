@@ -2,7 +2,11 @@
 state={
 	id=342
 	name="STATE_342"
-
+	resources={
+		tungsten=5 # was: 20
+		steel= 5 # was: 20
+		chromium = 3 # was: 4
+	}
 	history={
 		owner = ROG
 		buildings = {
@@ -17,6 +21,9 @@ state={
 			1823={
 				bunker=6
 			}
+		}
+		victory_points = {
+			4092 10
 		}
 		add_core_of = ROG
 		add_core_of = CHI

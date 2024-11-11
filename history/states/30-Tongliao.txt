@@ -12,8 +12,11 @@ state={
 		}
 		add_core_of = ROD
 		add_core_of = CHI
+		1936.1.1={
+			owner = MCK
+		}
 	}
-	manpower=323000
+	manpower=923000
 	state_category = town
 	local_supplies = 5.0
 }

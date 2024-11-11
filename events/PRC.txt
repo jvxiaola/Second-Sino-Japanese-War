@@ -1,93 +1,105 @@
-﻿add_namespace = CHI_1933
-add_namespace = 1933_PRC
-add_namespace = 1934_PRCAI
-add_namespace = PRC_1934
+﻿
+add_namespace = PRC_focus
 country_event = {
-	id = PRC.1
-	title = PRC.1.t
-	desc = PRC.1.d
+	id = PRC_focus.1
+	title = PRC_focus.1.t
+	desc = PRC_focus.1.d
     #picture = 
-
 	fire_only_once = yes
-	
-    trigger = {
-		AND={
-			date > 1933.1.15
-			date < 1933.1.17
-		}
-    }
+	is_triggered_only = yes
     immediate = {
-		PRC={
-			transfer_state = 602
-		}
 	}
     mean_time_to_happen = {
 	    days = 2
     }
 	option = {
-			name = PRC.1.a
+		name = PRC_focus.1.a
+		country_event = {id=PRC_focus.2 days=10}
 	}
-	}
-
-####ROC
+}
 country_event = {
-	id = CHI_1933.1
+	id = PRC_focus.2
+	title = PRC_focus.2.t
+	desc = PRC_focus.2.d
     #picture = 
-
 	fire_only_once = yes
-	
-    trigger = {
-		AND={
-			date > 1933.2.5
-			date < 1933.2.7
-		}
-    }
+	is_triggered_only = yes
     immediate = {
-		start_border_war = {
-			change_state_after_war = no
-			attacker = {
-				state = 313
-				num_provinces = 6
-				#on_win = japan_border_conflict.2
-				on_lose = japan_border_conflict.3
-				#on_cancel = japan_border_conflict.4
-				modifier = 0.1
-				dig_in_factor = 0.1
-				terrain_factor = 0
-			}	
-			defender = {
-				state = 582
-				num_provinces = 3
-				on_win = japan_border_conflict.3
-				#on_lose = japan_border_conflict.2
-				#on_cancel = japan_border_conflict.4
-			}
-		}
-		start_border_war = {
-			change_state_after_war = no
-			attacker = {
-				state = 312
-				num_provinces = 6
-				#on_win = japan_border_conflict.2
-				on_lose = japan_border_conflict.3
-				#on_cancel = japan_border_conflict.4
-				modifier = 0.1
-				dig_in_factor = 0.1
-				terrain_factor = 0
-			}	
-			defender = {
-				state = 582
-				num_provinces = 3
-				on_win = japan_border_conflict.3
-				#on_lose = japan_border_conflict.2
-				#on_cancel = japan_border_conflict.4
-			}
-		}
 	}
     mean_time_to_happen = {
-	   days = 2
+	    days = 2
     }
 	option = {
-			name = CHI_1933.1.a
+		name = PRC_focus.2.a
 	}
-}		
+}
+country_event = {
+	id = PRC_focus.3
+	title = PRC_focus.3.t
+	desc = PRC_focus.3.d
+    #picture = 
+	fire_only_once = yes
+	is_triggered_only = yes
+    immediate = {
+	}
+    mean_time_to_happen = {
+	    days = 2
+    }
+	option = {
+		name = PRC_focus.3.a
+	}
+}
+country_event = {
+	id = PRC_focus.4
+	title = PRC_focus.4.t
+	desc = PRC_focus.4.d
+    #picture = 
+	fire_only_once = yes
+	is_triggered_only = yes
+    immediate = {
+	}
+    mean_time_to_happen = {
+	    days = 2
+    }
+	option = {
+		name = PRC_focus.4.a
+		add_ideas = PRC_GuZuoLing_P
+		add_ideas = PRC_RenBiShi_P
+		add_ideas = PRC_WangJiaXiang_P
+	}
+}
+country_event = {
+	id = PRC_focus.5
+	title = PRC_focus.5.t
+	desc = PRC_focus.5.d
+    #picture = 
+	fire_only_once = yes
+	is_triggered_only = yes
+    immediate = {
+	}
+    mean_time_to_happen = {
+	    days = 2
+    }
+	option = {
+		name = PRC_focus.5.a
+		add_ideas = PRC_BoGu_P
+		add_ideas = PRC_LiDe_P
+		add_ideas = PRC_ZhouEngLai_P
+	}
+}
+country_event = {
+	id = PRC_focus.6
+	title = PRC_focus.6.t
+	desc = PRC_focus.6.d
+    #picture = 
+	fire_only_once = yes
+	is_triggered_only = yes
+    immediate = {
+	}
+    mean_time_to_happen = {
+	    days = 2
+    }
+	option = {
+		name = PRC_focus.5.a
+	}
+}

@@ -23,6 +23,9 @@ recruit_character =PRC_LuoBinHui
 recruit_character =PRC_ZhouKun
 recruit_character =PRC_XunHuaiZhou
 recruit_character =PRC_DongZhenTang
+recruit_character =PRC_GuZuoLing
+recruit_character =PRC_RenBiShi
+recruit_character =PRC_WangJiaXiang
 set_popularities = {
 	democratic = 0
 	communism = 100
@@ -47,9 +50,11 @@ add_ideas={
 		Soviet_district_spirit
 		Leftism
 		Revolutionary_base
-		PRC_ZhouEngLai_P
-		PRC_BoGu_P
-		PRC_LiDe_P
+		
+		PRC_GuZuoLing_P
+		PRC_RenBiShi_P
+		PRC_WangJiaXiang_P
+
 		PRC_LiDe_H
 		PRC_BoGu_H
 		PRC_ZhuDe_H 

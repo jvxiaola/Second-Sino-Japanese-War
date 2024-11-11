@@ -12,7 +12,9 @@ state={
 
 		}
 		add_core_of = ROS
-
+		victory_points = {
+			1606 10
+		}
 	}
 	manpower=23110
 	buildings_max_level_factor=1.000

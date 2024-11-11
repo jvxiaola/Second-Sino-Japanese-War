@@ -16,6 +16,9 @@ state={
 			1216 5
 		}
 		set_state_flag = Key_areas
+		1936.1.1={
+			owner = MCK
+		}
 	}
 	manpower=323000
 	state_category = town

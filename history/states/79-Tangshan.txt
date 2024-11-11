@@ -15,6 +15,9 @@ state={
 		victory_points = {
 			3629 5
 		}
+		1936.1.1={
+			owner = JAP
+		}
 	}
 	manpower=323000
 	state_category = town

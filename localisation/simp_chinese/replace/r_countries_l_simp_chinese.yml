@@ -49,6 +49,10 @@ CHI_fascism: "改组派中华民国"
  ROD_DEF: "东北边防政府"
  ROD_ADJ: "东北边防政府"
 
+ ROD_1936: "西安绥靖公署"
+ ROD_1936_DEF: "西安绥靖公署"
+ ROD_1936_ADJ: "西安绥靖公署"
+
 
  CAR_neutrality: "察哈尔民众抗日同盟军"
  CAR_neutrality_DEF: "察哈尔民众抗日同盟军"
@@ -137,6 +141,14 @@ CHI_fascism: "改组派中华民国"
  RON: "湖南军阀"
  RON_DEF: "湖南军阀"
  RON_ADJ: "湖南军阀"
+
+ MGJ: "蒙古军政府"
+ MGJ_DEF: "蒙古军政府"
+ MGJ_ADJ: "蒙古军政府"
+
+ JDW: "冀察政务委员会"
+ JDW_DEF: "冀察政务委员会"
+ JDW_ADJ: "冀察政务委员会"
 
  ROY_fascism: "滇系军阀"
  ROY_fascism_DEF: "滇系军阀"

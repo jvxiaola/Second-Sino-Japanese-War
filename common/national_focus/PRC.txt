@@ -116,7 +116,12 @@ focus_tree = {
 		}
 		x = 11
 		y = 1
-
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = AB_spirit
+				add_idea = AB_spirit1
+			}
+		}
 	}
 	focus = {
 		id = PRC_focus10
@@ -234,6 +239,7 @@ focus_tree = {
 		x = 18
 		y = 2
 		completion_reward = {
+			add_ideas = Local_outpost
 		}
 	}
 	focus = {
@@ -356,7 +362,12 @@ focus_tree = {
 		}
 		x = 25
 		y = 0
-
+		completion_reward = {
+			add_opinion_modifier = {
+				target = SOV
+				modifier = SOV_supported_china_good
+			}
+		}
 	}
 	focus = {
 		id = PRC_focus18
@@ -367,7 +378,9 @@ focus_tree = {
 		}
 		x = 25
 		y = 2
-
+		completion_reward = {
+			add_ideas = PRC_LiDe_P
+		}
 	}
 	focus = {
 		id = PRC_focus19
@@ -381,7 +394,13 @@ focus_tree = {
 		}
 		x = 27
 		y = 1
-
+		completion_reward = {
+			custom_effect_tooltip = PRC_focus19_effect
+			hidden_effect = {
+				country_event = {id=PRC_focus.4 days=5}
+			}
+			
+		}
 	}
 	focus = {
 		id = PRC_focus20
@@ -391,7 +410,9 @@ focus_tree = {
 		}
 		x = 30
 		y = 0
-
+		completion_reward = {
+			country_event = PRC_focus.1
+		}
 	}
 	focus = {
 		id = PRC_focus21
@@ -424,7 +445,9 @@ focus_tree = {
 		}
 		x = 30
 		y = 1
-
+		completion_reward = {
+			country_event = PRC_focus.3
+		}
 	}
 	focus = {
 		id = PRC_focus23
@@ -435,7 +458,13 @@ focus_tree = {
 		}
 		x = 28
 		y = 3
-
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
 	}
 	focus = {
 		id = PRC_focus24
@@ -446,7 +475,9 @@ focus_tree = {
 		}
 		x = 32
 		y = 3
-
+		completion_reward = {
+			add_ideas = PRC_peoples_war
+		}
 	}
 	focus = {
 		id = PRC_focus25
@@ -457,7 +488,9 @@ focus_tree = {
 		}
 		x = 33
 		y = 2
-
+		completion_reward = {
+			add_ideas = PRC_mobile_warfare
+		}
 	}
 	focus = {
 		id = PRC_focus26
@@ -468,7 +501,9 @@ focus_tree = {
 		}
 		x = 37
 		y = 2
-
+		completion_reward = {
+			add_ideas = PRC_protracted_warfare
+		}
 	}
 	focus = {
 		id = PRC_focus27
@@ -479,7 +514,9 @@ focus_tree = {
 		}
 		x = 35
 		y = 3
-
+		completion_reward = {
+			add_ideas = Extensive_conscription
+		}
 	}
 	focus = {
 		id = PRC_focus28
@@ -493,7 +530,9 @@ focus_tree = {
 		}
 		x = 26
 		y = 3
-
+		completion_reward = {
+			add_ideas = Extensive_conscription
+		}
 	}
 	focus = {
 		id = PRC_focus29
@@ -504,7 +543,9 @@ focus_tree = {
 		}
 		x = 29
 		y = 4
-
+		completion_reward = {
+			add_political_power = 100
+		}
 	}
 	focus = {
 		id = PRC_focus30
@@ -515,7 +556,9 @@ focus_tree = {
 		}
 		x = 31
 		y = 4
-
+		completion_reward = {
+			add_political_power = 100
+		}
 	}
 	focus = {
 		id = PRC_focus31
@@ -563,6 +606,7 @@ focus_tree = {
 				id = PRC_struggle_balance
 				value = 0.05
 			}
+			add_stability = 0.1
 		}
 	}
 	focus = {
@@ -579,26 +623,40 @@ focus_tree = {
 				id = PRC_struggle_balance
 				value = 0.05
 			}
+			add_war_support = 0.1
 		}
 	}
 	focus = { 
 		id = PRC_focus35
 		icon = GFX_goal_generic_forceful_treaty
 		cost = 10.00  
+		available = {
+			date > 1933.1.15 
+		}
 		prerequisite = {
 		}
 		x = 30
 		y = 5
+		completion_reward = {
+			country_event = {id=PRC_focus.6}
+		}
 	}
 	focus = {  
 		id = PRC_focus36
 		icon = GFX_focus_ITA_corpo_volontari_della_liberta
 		cost = 10.00  
+		
 		prerequisite = {
 			focus = PRC_focus38
 		}
 		x = 34
 		y = 7
+		completion_reward = {
+			add_power_balance_value = {
+				id = PRC_struggle_balance
+				value = 0.1
+			}
+		}
 	}
 	focus = {  
 		id = PRC_focus37
@@ -612,6 +670,8 @@ focus_tree = {
 		}
 		x = 28
 		y = 6
+		completion_reward = {
+		}
 	}
 	focus = {  
 		id = PRC_focus38
@@ -625,6 +685,9 @@ focus_tree = {
 		}
 		x = 32
 		y = 6
+		completion_reward = {
+			
+		}
 	}
 	focus = {  
 		id = PRC_focus39
@@ -635,6 +698,9 @@ focus_tree = {
 		}
 		x = 30
 		y = 7
+		completion_reward = {
+			country_event = {id=PRC_focus.5 days=10}
+		}
 	}
 	focus = {  
 		id = PRC_focus40
@@ -655,16 +721,80 @@ focus_tree = {
 		}
 		x = 26
 		y = 5 
+		completion_reward = {
+			start_border_war = {
+				change_state_after_war = no
+				attacker = {
+					state =251
+					num_provinces = 1
+					modifier = 0.1
+					dig_in_factor = -0.1
+					terrain_factor = -0.1
+				}	
+				defender = {
+					state = 246
+					num_provinces = 3
+					dig_in_factor = 0.3
+					terrain_factor = 0.3
+				}
+			}
+			start_border_war = {
+				change_state_after_war = no
+				attacker = {
+					state =250
+					num_provinces = 1
+					modifier = 0.1
+					dig_in_factor = -0.1
+					terrain_factor = -0.1
+				}	
+				defender = {
+					state = 246
+					num_provinces = 3
+					dig_in_factor = 0.3
+					terrain_factor = 0.3
+				}
+			}
+		}
 	}
 	focus = {  
 		id = PRC_focus42
 		icon = GFX_focus_eng_move_to_secure_the_dominions
 		cost = 10.00  
-		prerequisite = {
+		prerequisite = { 
 			focus = PRC_focus38
 		}
 		x = 32
 		y = 8
+	}
+	focus = {  
+		id = PRC_focus43
+		icon = GFX_focus_eng_move_to_secure_the_dominions
+		cost = 10.00  
+		prerequisite = { 
+			focus = PRC_focus42 
+		}
+		x = 32
+		y = 9
+	}
+	focus = {  
+		id = PRC_focus44
+		icon = GFX_focus_eng_move_to_secure_the_dominions
+		cost = 10.00  
+		prerequisite = { 
+			focus = PRC_focus43 
+		} 
+		x = 30
+		y = 10
+	}
+	focus = {  
+		id = PRC_focus45
+		icon = GFX_focus_eng_move_to_secure_the_dominions
+		cost = 10.00  
+		prerequisite = { 
+			focus = PRC_focus43 
+		}
+		x = 34
+		y = 10
 	}
 }
 

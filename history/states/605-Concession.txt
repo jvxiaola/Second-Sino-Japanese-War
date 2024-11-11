@@ -8,7 +8,7 @@ state={
 		owner = PCN
 		set_demilitarized_zone = yes
 	}
-	manpower=123300
+	manpower=23524
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

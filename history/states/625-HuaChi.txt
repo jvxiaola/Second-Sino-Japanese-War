@@ -4,6 +4,9 @@ state={
 	provinces={
 		636 1387 2710 
 	}
+	resources = {
+		tungsten = 2.000
+	}
 	history={
 		owner = CHI
 		buildings = {
@@ -12,7 +15,9 @@ state={
 
 		}
 		add_core_of = CHI
-
+		1936.1.1={
+			owner = ROD
+		}
 	}
 	manpower=23110
 	buildings_max_level_factor=1.000
