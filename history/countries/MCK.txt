@@ -1,4 +1,4 @@
-﻿capital = 24
+﻿capital = 36
 
 set_oob = "MCK_1932"
 

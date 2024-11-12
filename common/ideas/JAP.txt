@@ -1,18 +1,15 @@
 ideas = {
 	country = {
 		Militaristic_fervor = {
-		
+			picture=Militaristic_fervor
 			allowed = {
 				always = yes
 			}
 
 			allowed_civil_war = {
 			}
-
 			removal_cost = -1
-			
 			modifier = {
-				
 				army_speed_factor=0.15
 				breakthrough_factor=0.25			
 				ai_focus_military_equipment_factor= 0.5
@@ -22,6 +19,40 @@ ideas = {
 				ai_focus_military_equipment_factor = 0.5
 			}
 			
+		}
+		Death_in_March = {
+			picture=Death_in_March
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+			}
+			removal_cost = -1
+			modifier = {
+				army_speed_factor=0.1
+				breakthrough_factor=0.1			
+			}
+			targeted_modifier = {
+				tag=CHI
+				attack_bonus_against=0.75 
+                defense_bonus_against=0.75
+			}
+			targeted_modifier = {
+				tag=ROJ
+				attack_bonus_against=0.75 
+                defense_bonus_against=0.75
+			}
+			targeted_modifier = {
+				tag=ROA
+				attack_bonus_against=0.75 
+                defense_bonus_against=0.75
+			}
+			targeted_modifier = {
+				tag=JDW
+				attack_bonus_against=0.75 
+                defense_bonus_against=0.75
+			}
 		}
 	}
 }

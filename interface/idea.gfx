@@ -27,5 +27,13 @@ spriteTypes = {
 		name = "GFX_idea_Revolutionary_base"
 		texturefile = "gfx/interface/ideas/PRC/Revolutionary_base.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_Militaristic_fervor"
+		texturefile = "gfx/interface/ideas/JAP/Militaristic_fervor.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Death_in_March"
+		texturefile = "gfx/interface/ideas/JAP/Death_in_March.dds"
+	}
 	
 }

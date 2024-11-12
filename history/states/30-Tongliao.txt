@@ -15,6 +15,9 @@ state={
 		1936.1.1={
 			owner = MCK
 		}
+		victory_points = {
+			3556 5
+		}
 	}
 	manpower=923000
 	state_category = town

@@ -24,6 +24,7 @@ set_popularities = {
     neutrality = 100
 }
 create_faction = ROC_COUNTRY
+add_to_faction = JDW
 add_to_faction = ROS
 add_to_faction = ROH
 add_to_faction = ROG
@@ -36,6 +37,8 @@ add_to_faction = ROX
 add_to_faction = XZS
 add_to_faction = ROH
 add_to_faction = RON
+add_to_faction = ROJ
+add_to_faction = ROA
 
 set_politics = {
 	ruling_party = neutrality
@@ -51,8 +54,11 @@ add_equipment_to_stockpile = {
 1933.1.1={
 	set_oob = "CHI_1933"
 	add_ideas = {
-		AI_CHI
 		Four_families
 		CHI_army_corruption_1
 	}
+}
+1936.1.1={
+	add_to_faction = ROD
+	add_to_faction = JDW
 }

@@ -64,20 +64,16 @@ country_event = {
 	fire_only_once = yes
 	
     trigger = {
-		AND={
-			date > 1937.7.6
-			date < 1937.7.8
-		}
     }
 immediate = {
-	news_event = WorldNew.2
+	#news_event = WorldNew.2
 }
 mean_time_to_happen = {
 	days = 2
 }
 	option = {
-			name = Hidden_News.2.a
-		}		
+		name = Hidden_News.2.a
+	}		
 }
 country_event = {
 	id = Hidden_News.3
@@ -144,7 +140,7 @@ mean_time_to_happen = {
 }
 	option = {
 			name = Hidden_News.4.a
-		}		
+	}		
 }
 country_event = {
 	id = Hidden_News.5
@@ -414,8 +410,8 @@ country_event = {
 	fire_only_once = yes
     trigger = {
 		AND={
-			date > 1936.8.12
-			date < 1936.8.14
+			date > 1937.8.13
+			date < 1937.8.15
 		}
     }
     immediate = {
@@ -433,6 +429,30 @@ country_event = {
 	}		
 }
 
+country_event = {
+	id = Hidden_News.17
+	hidden = yes
+	fire_only_once = yes
+    trigger = {
+		AND={
+			date > 1935.11.23
+			date < 1935.11.25
+		}
+    }
+    immediate = {
+		set_global_flag = 1124beiping
+    } 
+    mean_time_to_happen = {
+	    days = 2
+    }
+	option = {
+		name = Hidden_News.17.a
+		hidden_effect = {
+			news_event = WorldNew.21
+		}
+		clr_global_flag = 1124beiping
+	}		
+}
 
 
 
@@ -484,12 +504,6 @@ news_event = {
 
 	option = {
 			name = WorldNew.2.a
-			JAP={
-				declare_war_on = {
-				target = CHI
-				type = annex_everything
-			}
-			}
 		}		
 }
 news_event = {
@@ -898,16 +912,20 @@ news_event = {
 	immediate = {
 		hidden_effect = {
 			JAP={
+				add_timed_idea = {
+					idea = Death_in_March
+					days = 90
+				}
 				declare_war_on = {
 					target = CHI
 					type = annex_everything
 				}
 				declare_war_on = {
-					target = ROD
+					target = JDW
 					type = annex_everything
 				}
 				declare_war_on = {
-					target = PRC
+					target = ROD
 					type = annex_everything
 				}
 			}
@@ -916,7 +934,7 @@ news_event = {
 	}
 	option = {
 			name = WorldNew.19.a
-	}		
+	}	
 }
 
 
@@ -933,6 +951,10 @@ news_event = {
 	immediate = {
 		hidden_effect = {
 			JAP={
+				declare_war_on = {
+					target = CHI
+					type = annex_everything
+				}
 			transfer_state = 586
 			586={
 				create_unit = {
@@ -952,5 +974,54 @@ news_event = {
 	}
 	option = {
 			name = WorldNew.20.a
+	}		
+}
+
+
+
+
+
+
+
+
+news_event = {
+	id = WorldNew.21
+	title = WorldNew.21.t
+	desc = WorldNew.21.d
+
+	picture = GFX_WorldNew_21
+
+	major = yes
+
+	is_triggered_only = yes
+	immediate = {
+		hidden_effect = {
+			JAP={
+			transfer_state = 586
+			}
+		}
+	}
+	option = {
+			name = WorldNew.21.a
+			hidden_effect = {
+				news_event = {id=WorldNew.22 days=15}
+			}
+	}		
+}
+
+news_event = {
+	id = WorldNew.22
+	title = WorldNew.22.t
+	desc = WorldNew.22.d
+
+	picture = GFX_WorldNew_22
+
+	major = yes
+
+	is_triggered_only = yes
+	immediate = {
+	}
+	option = {
+			name = WorldNew.22.a
 	}		
 }
