@@ -13,6 +13,9 @@ state={
 		1933.1.1={
 			owner = MCK
 		}
+		1933.1.1={
+			owner = NAF
+		}
 		add_core_of = ROD
 		add_core_of = CHI
 	}
