@@ -5,13 +5,14 @@ state={
 		1606 3813 
 	}
 	history={
-		owner = ROS
+		owner = ROT
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1
 
 		}
 		add_core_of = ROS
+		add_core_of = ROT
 		victory_points = {
 			1606 10
 		}

@@ -146,8 +146,6 @@ focus_tree = {
 		cost = 10.00  
 		prerequisite = {
 			focus = PRC_focus9
-		}
-		prerequisite = {
 			focus = PRC_focus10
 		}
 		x = 13

@@ -5,13 +5,14 @@ state={
 		172 1734 2015 3915 
 	}
 	history={
-		owner = ROS
+		owner = ROW
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1
 
 		}
-		add_core_of = ROS
+		
+		add_core_of = ROw
 
 	}
 	manpower=23110

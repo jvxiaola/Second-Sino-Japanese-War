@@ -5,13 +5,13 @@ state={
 		2931 
 	}
 	history={
-		owner = ROS
+		owner = ROT
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1
 		}
 		1933.1.1={
-			owner = ROS
+			owner = ROT
 		}
 	}
 	manpower=23400
