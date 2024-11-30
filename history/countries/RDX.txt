@@ -7,7 +7,7 @@ set_technology = {
 	gw_artillery = 1
 }
 
-#recruit_character = 
+recruit_character = RDX_DengXiHou
 set_popularities = {
 	democratic = 0
 	communism = 0
