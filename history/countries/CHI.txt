@@ -23,22 +23,17 @@ set_popularities = {
 	communism = 0
     neutrality = 100
 }
-create_faction = ROC_COUNTRY
-add_to_faction = JDW
-add_to_faction = ROS
-add_to_faction = ROH
-add_to_faction = ROG
-add_to_faction = ROC
-add_to_faction = ROY
-add_to_faction = ROQ
-add_to_faction = ROZ
-add_to_faction = ROK
-add_to_faction = ROX
-add_to_faction = XZS
-add_to_faction = ROH
-add_to_faction = RON
-add_to_faction = ROJ
-add_to_faction = ROA
+add_intel = {
+    target = PRC
+    civilian_intel = 1
+    army_intel = 1
+    navy_intel = 1
+    airforce_intel = 1
+}
+
+puppet = RON
+
+
 
 set_politics = {
 	ruling_party = neutrality

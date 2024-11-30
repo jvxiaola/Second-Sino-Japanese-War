@@ -41,8 +41,19 @@ add_ideas={
 	AB_spirit
 	Leftism
 	Revolutionary_base
+	PRC_Central_Special_Branch
 }
-
+create_intelligence_agency = {
+    name = "中央特科"
+    icon = GFX_Central_Special_Branch
+}
+add_intel = {
+    target = CHI
+    civilian_intel = 7
+    army_intel = 7
+    navy_intel = 2
+    airforce_intel = 2
+}
 1933.1.1={
 	capital = 582 
 	set_oob = PRC_1933

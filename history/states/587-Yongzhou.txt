@@ -6,6 +6,7 @@ state={
 	}
 	history={
 		owner = PRC
+		add_core_of = RON
 		buildings = {
 		}
 		victory_points = {

@@ -504,6 +504,19 @@ news_event = {
 
 	option = {
 			name = WorldNew.2.a
+			every_country = {
+				if={
+				limit = {
+					has_idea = Regionalist_warlords
+				}
+				diplomatic_relation = {
+					country = CHI
+					relation = military_access
+					active = no
+				}
+			}
+			}
+			
 		}		
 }
 news_event = {
