@@ -5,7 +5,7 @@ state={
 		2485 3807 3817 
 	}
 	history={
-		owner = CHI
+		owner = PRC
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1

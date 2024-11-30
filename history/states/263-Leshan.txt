@@ -4,12 +4,13 @@ state={
 	name="STATE_263"
 
 	history={
-		owner = ROS
+		owner = ROW
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1
 
 		}
+		add_core_of = ROW
 		add_core_of = ROS
 		add_core_of = CHI
 		victory_points = {

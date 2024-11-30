@@ -6,6 +6,14 @@ state={
 	}
 	history={
 		owner = RON
+		1933.1.1={
+			owner = PRC
+		}
+
+		1936.1.1={
+			owner = RON
+		}
+
 		buildings = {
 			infrastructure = 1
 		}

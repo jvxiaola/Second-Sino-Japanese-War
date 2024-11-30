@@ -128,6 +128,7 @@
  #Hubei
  STATE_198:0 "Shiyan"
  STATE_208:0 "Xiangyang"
+ STATE_626:0 "fangxian"
  STATE_210:0 "Suizhou"
  STATE_218:0 "Shennongjia"
  STATE_220:0 "Xiaogan"
@@ -246,6 +247,7 @@
  #Sichuan
  STATE_183:0 "Aba"
  STATE_188:0 "Ganzi"
+ STATE_627:0 "Ganzi"
  STATE_201:0 "Mianyang"
  STATE_202:0 "Guangyuan"
  STATE_204:0 "Bazhong"
@@ -265,7 +267,6 @@
  STATE_277:0 "Liangshan"
  STATE_278:0 "Yibin"
  STATE_310:0 "Panzhihua"
-
  #Shaanxi
  STATE_89:0 "Yulin"
  STATE_116:0 "Yanan"
