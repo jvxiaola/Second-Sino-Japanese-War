@@ -73,8 +73,78 @@ country_event = {
 		hidden_effect = {
 			news_event = WorldNew.17
 		}
+		every_controlled_state = {
+			if = {
+				limit = {
+					AND={
+						is_controlled_by = PRC
+						NOT = {
+							state=116
+						}
+						NOT = {
+							state=590
+						}
+					}
+				}
+				transfer_state_to = CHI
+			}
+		}
+		every_core_state = {
+			if = {
+				limit = {
+					AND={
+						is_core_of = ROS
+					}
+				}
+				transfer_state_to = ROS
+			}
+		}
+		every_core_state = {
+			if = {
+				limit = {
+					AND={
+						is_core_of = ROH
+					}
+				}
+				transfer_state_to = ROH
+			}
+		}
+		every_core_state = {
+			if = {
+				limit = {
+					AND={
+						is_core_of = ROY
+					}
+				}
+				transfer_state_to = ROY
+			}
+		}
+		every_core_state = {
+			if = {
+				limit = {
+					AND={
+						is_core_of = RON
+					}
+				}
+				transfer_state_to = RON
+			}
+		}
+		every_core_state = {
+			if = {
+				limit = {
+					AND={
+						is_core_of = ROC
+					}
+				}
+				transfer_state_to = ROC
+			}
+		}
 		PRC={
 			white_peace =CHI
+			white_peace =ROC
+			white_peace =ROY
+			white_peace =ROH
+			white_peace =ROS
 			#country_event = CHI_1932.1
 		}
 		116={

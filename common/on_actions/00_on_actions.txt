@@ -26,4 +26,32 @@ on_actions = {
 			
 		}
 	}
+	on_startup = {
+		effect = {
+			every_country = {
+				set_rule = {
+					desc = TAG_my_rule_description
+					can_create_factions = no
+					can_join_factions = no
+				}
+			}
+		}
+	}
+	on_startup = {
+		effect = {
+			every_country = {
+				if = {
+					limit = { 
+						has_idea = Regionalist_warlords
+					}
+					diplomatic_relation = {
+						country = CHI
+						relation = military_access
+						active = no
+					}
+				}
+			}
+		}
+	}
+
 	}

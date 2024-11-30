@@ -770,7 +770,7 @@ focus_tree = {
 		id = PRC_focus43
 		icon = GFX_focus_eng_move_to_secure_the_dominions
 		cost = 10.00  
-		prerequisite = { 
+		prerequisite = {  
 			focus = PRC_focus42 
 		}
 		x = 32
@@ -781,20 +781,83 @@ focus_tree = {
 		icon = GFX_focus_eng_move_to_secure_the_dominions
 		cost = 10.00  
 		prerequisite = { 
-			focus = PRC_focus43 
+			focus = PRC_focus45 
 		} 
-		x = 30
-		y = 10
+		x = 39
+		y = 6
 	}
 	focus = {  
 		id = PRC_focus45
 		icon = GFX_focus_eng_move_to_secure_the_dominions
 		cost = 10.00  
-		prerequisite = { 
-			focus = PRC_focus43 
+		available = {
+			PRC={
+				controls_state = 116
+			}
+			has_completed_focus = PRC_focus43
 		}
-		x = 34
-		y = 10
+		x = 39
+		y = 5
+	}
+	focus = {  
+		id = PRC_focus46
+		icon = GFX_focus_eng_move_to_secure_the_dominions
+		cost = 10.00  
+		available = {
+			PRC={
+				controls_state = 116
+			}
+		}
+		prerequisite = { 
+			focus = PRC_focus44 
+		} 
+		mutually_exclusive = {
+			focus = PRC_focus47
+		}
+		x = 37
+		y = 7
+	}
+	focus = {  
+		id = PRC_focus47
+		icon = GFX_focus_eng_move_to_secure_the_dominions
+		cost = 10.00  
+		available = {
+			PRC={
+				controls_state = 116
+			}
+		}
+		mutually_exclusive = {
+			focus = PRC_focus46
+		}
+		prerequisite = { 
+			focus = PRC_focus44 
+		} 
+		x = 41
+		y = 7
+	}
+	focus = {  
+		id = PRC_focus48 
+		icon = GFX_focus_eng_move_to_secure_the_dominions
+		cost = 10.00  
+		available = {
+		}
+		prerequisite = { 
+			focus = PRC_focus44 
+		} 
+		x = 39 
+		y = 8
+	}
+	focus = {  
+		id = PRC_focus49 
+		icon = GFX_focus_eng_move_to_secure_the_dominions
+		cost = 10.00  
+		available = {
+		}
+		prerequisite = { 
+			focus = PRC_focus45 
+		} 
+		x = 36
+		y = 6
 	}
 }
 

@@ -437,6 +437,13 @@ country_event = {
 				target = PRC
 				type = annex_everything
 			}
+			
+		}
+		RON={
+			add_to_war = {
+				targeted_alliance = CHI
+				enemy = PRC
+			}
 		}
 		
 	}

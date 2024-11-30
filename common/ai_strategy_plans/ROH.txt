@@ -1,0 +1,25 @@
+CHI_1931= {
+    allowed = {
+        original_tag = ROH
+    }
+    enable = {
+        date > 1931.1.1
+        date < 1936.12.12
+
+    }
+    enable_reverse = {
+    }
+    reversed = yes
+    abort_when_not_enabled = yes
+    
+    ai_strategy = {
+        type = put_unit_buffers
+        ratio = 0.2
+        states = {
+            617
+            615
+            325
+        }
+        subtract_fronts_from_need = yes
+    }
+}

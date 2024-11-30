@@ -12,6 +12,24 @@ Long_march_decisions = {
 		}
 		complete_effect = {
 			add_ideas = Chinese_red_army1
+			PRC={
+				declare_war_on = {
+					target = ROC
+					type = annex_everything
+				} 
+				declare_war_on = {
+					target = ROH
+					type = annex_everything
+				} 
+				declare_war_on = {
+					target = ROS
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = ROY
+					type = annex_everything
+				}
+			}
 			hidden_effect = {
 				country_event = {id=PRC_1934.5 days=5}
 			}

@@ -1,4 +1,11 @@
 spriteTypes = {
+	
+	
+	spriteType = {
+	    name = "GFX_Central_Special_Branch"
+	    texturefile = "gfx/interface/ideas/Central_Special_Branch.dds"
+		noOfFrames =2
+    } 
 	spriteType = {
 		name = "GFX_idea_Four_families"
 		texturefile = "gfx/interface/ideas/CHI/Four_families.dds"

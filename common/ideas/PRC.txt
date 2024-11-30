@@ -1,6 +1,19 @@
 ideas = {
 
 	country = {
+		Central_Special_Branch = {
+			allowed = {
+			}
+			picture = GFX_Central_Special_Branch
+			
+			modifier = {
+				intelligence_agency_defense=0.1
+				decryption_power=10
+				intel_network_gain=0.1
+				intel_from_operatives_factor=0.1
+				propaganda_mission_factor=0.1
+			}
+		}
 		Chinese_red_army1 = {
 			allowed = {
 			}
@@ -82,11 +95,11 @@ ideas = {
 			picture = Leftism
 			
 			modifier = {
-				political_power_cost=0.05
+				political_power_cost=2
 				ai_get_ally_desire_factor=10
 				opinion_gain_monthly_same_ideology=5
 				war_support_factor=0.05
-				party_popularity_stability_factor=-0.05
+				party_popularity_stability_factor=-0.1
 				org_loss_when_moving=0.02
 				attrition_for_controller=0.05
 			}

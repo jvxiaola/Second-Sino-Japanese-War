@@ -8,6 +8,7 @@ state={
 		owner = PRC
 		buildings = {
 		}
+		add_core_of = ROC
 		add_core_of = PRC
 		victory_points = {
 			4080 10
